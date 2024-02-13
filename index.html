@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
       rel="stylesheet"
     />
+
+    <script src="assets/js/app.js"></script>
   </head>
 
   <body>
@@ -46,9 +48,15 @@
           Diunggah 11 Februari 2024
         </article>
         <article>
-          <a href="https://www.youtube.com/watch?v=RRgLZ66NCmE" target="_blank">
-            <button>Tonton di Youtube</button>
-          </a>
+          <div class="button-container">
+            <a
+              href="https://www.youtube.com/watch?v=RRgLZ66NCmE"
+              target="_blank"
+            >
+              <button>Tonton di Youtube</button>
+            </a>
+            <button id="shareBtn">Share</button>
+          </div>
         </article>
       </div>
 
@@ -87,5 +95,12 @@
         <strong>Link yang kalian bagikan nggak akan mati. ✊ </strong>
       </p>
     </footer>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p id="modalText">Link copied to clipboard!</p>
+      </div>
+    </div>
   </body>
 </html>
