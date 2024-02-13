@@ -1,0 +1,92 @@
+body {
+  font-family: "DM Mono", sans-serif;
+}
+
+main {
+  display: flex;
+  margin-top: 2rem;
+}
+
+footer {
+  text-align: center;
+  font-weight: light;
+  font-size: 0.8rem;
+
+  margin-top: 5rem;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+header .navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-inline: auto;
+}
+
+header .navbar-container .nav-list ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
+header .navbar-container .nav-list li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+header .navbar-container .nav-list li a {
+  text-decoration: none;
+  color: #212121;
+  transition: all 0.2s ease-in-out;
+  font-weight: 550;
+}
+
+header .navbar-container .nav-list li:hover a {
+  background-color: black;
+  color: white;
+  padding: 0.4rem;
+}
+
+main button {
+  padding: 0.8rem 2.5rem;
+  border: 3px solid transparent;
+  margin-block-start: 1rem;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+main button:hover {
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+}
+
+#content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content article h3 {
+  text-align: center;
+}
+
+#content button {
+  display: flex;
+  align-self: flex-end;
+}
+
+aside {
+  align-self: center;
+}
