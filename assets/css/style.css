@@ -4,7 +4,6 @@ body {
 
 main {
   display: flex;
-  margin-top: 2rem;
   padding: 2rem;
 }
 
@@ -69,6 +68,7 @@ header .navbar-container .nav-list li:hover a {
 
 #content article .button-container {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
